@@ -6,6 +6,7 @@
      
       <class name="tests.SecondTest"/>
       <class name= "tests.FirstTest"/>
+      <class name="tests.ThirdTest"></class>
     </classes>
   </test> <!-- Smoke Testing -->
 </suite> <!-- SmokeSuite -->
