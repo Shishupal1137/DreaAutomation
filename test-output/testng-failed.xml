@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Smoke Testing(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.SecondTest">
+      <class name="tests.HomePageTest">
         <methods>
-          <include name="searchSeleniumTestNG"/>
-          <include name="tearDown"/>
-          <include name="openGoogleHomePage"/>
-          <include name="setup"/>
+          <include name="setupBrowser"/>
+          <include name="teardown"/>
+          <include name="testHomePageLoading"/>
+          <include name="testMyDreamsButtonOpensTabs"/>
         </methods>
-      </class> <!-- tests.SecondTest -->
+      </class> <!-- tests.HomePageTest -->
     </classes>
-  </test> <!-- Smoke Testing(failed) -->
-</suite> <!-- Failed suite [SmokeSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -110,12 +110,12 @@
       <![CDATA[testSearchProduct executed - reported log]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-23T13:09:36 IST" name="SmokeSuite" finished-at="2025-07-23T13:09:43 IST" duration-ms="6733">
+  <suite started-at="2025-07-24T02:32:50 IST" name="SmokeSuite" finished-at="2025-07-24T02:32:59 IST" duration-ms="9026">
     <groups>
     </groups>
-    <test started-at="2025-07-23T13:09:36 IST" name="Smoke Testing" finished-at="2025-07-23T13:09:43 IST" duration-ms="6733">
+    <test started-at="2025-07-24T02:32:50 IST" name="Smoke Testing" finished-at="2025-07-24T02:32:59 IST" duration-ms="9026">
       <class name="tests.FirstTest">
-        <test-method signature="helpSectionTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="helpSectionTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+        <test-method signature="helpSectionTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="helpSectionTest" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Help section accessed]]>
@@ -125,7 +125,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- helpSectionTest -->
-        <test-method signature="loginTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="loginTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="loginTest" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login page loaded]]>
@@ -138,7 +138,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="logoutTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="7" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="logoutTest" finished-at="2025-07-24T02:32:59 IST" duration-ms="20" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout initiated]]>
@@ -148,7 +148,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method signature="verifyDashboard()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyDashboard" finished-at="2025-07-23T13:09:42 IST" duration-ms="4" status="PASS">
+        <test-method signature="verifyDashboard()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyDashboard" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Dashboard loaded successfully]]>
@@ -158,7 +158,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDashboard -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -171,7 +171,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:42 IST" duration-ms="4" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -184,7 +184,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="5" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -197,7 +197,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="4" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T02:32:59 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -210,7 +210,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-24T02:32:59 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -225,14 +225,14 @@
         </test-method> <!-- verifyWelcomeMessage -->
       </class> <!-- tests.FirstTest -->
       <class name="tests.SecondTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:36 IST" name="setup" finished-at="2025-07-23T13:09:39 IST" duration-ms="3232" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-24T02:32:50 IST" name="setup" finished-at="2025-07-24T02:32:55 IST" duration-ms="5098" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openGoogleHomePage()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:39 IST" name="openGoogleHomePage" finished-at="2025-07-23T13:09:40 IST" duration-ms="1291" status="PASS">
+        <test-method signature="openGoogleHomePage()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-24T02:32:55 IST" name="openGoogleHomePage" finished-at="2025-07-24T02:32:57 IST" duration-ms="1775" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Google.com]]>
@@ -242,7 +242,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openGoogleHomePage -->
-        <test-method signature="searchSeleniumTestNG()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:41 IST" name="searchSeleniumTestNG" finished-at="2025-07-23T13:09:42 IST" duration-ms="1603" status="PASS">
+        <test-method signature="searchSeleniumTestNG()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-24T02:32:57 IST" name="searchSeleniumTestNG" finished-at="2025-07-24T02:32:58 IST" duration-ms="1555" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opened Google for search test]]>
@@ -255,7 +255,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchSeleniumTestNG -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:42 IST" name="tearDown" finished-at="2025-07-23T13:09:42 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-24T02:32:58 IST" name="tearDown" finished-at="2025-07-24T02:32:59 IST" duration-ms="253" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed after test execution]]>
@@ -264,35 +264,35 @@
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SecondTest -->
       <class name="tests.ThirdTest">
-        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testAddToCart" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-24T02:32:59 IST" name="testAddToCart" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testAddToCart executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testCheckout" finished-at="2025-07-23T13:09:43 IST" duration-ms="5" status="PASS">
+        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-24T02:32:59 IST" name="testCheckout" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testCheckout executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCheckout -->
-        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testLogin" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-24T02:32:59 IST" name="testLogin" finished-at="2025-07-24T02:32:59 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogin executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testLogout" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
+        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-24T02:32:59 IST" name="testLogout" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogout executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testSearchProduct" finished-at="2025-07-23T13:09:43 IST" duration-ms="4" status="PASS">
+        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-24T02:32:59 IST" name="testSearchProduct" finished-at="2025-07-24T02:32:59 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testSearchProduct executed - reported log]]>

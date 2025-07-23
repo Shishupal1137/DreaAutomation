@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.AllureReport">
+      <class name="tests.HomePageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="registration"/>
+          <include name="setupBrowser"/>
+          <include name="teardown"/>
+          <include name="testHomePageLoading"/>
+          <include name="testMyDreamsButtonOpensTabs"/>
         </methods>
-      </class> <!-- tests.AllureReport -->
+      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
