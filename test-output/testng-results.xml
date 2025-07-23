@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Google.com]]>
+    </line>
+    <line>
+      <![CDATA[Page title is: Google]]>
+    </line>
+    <line>
+      <![CDATA[Opened Google for search test]]>
+    </line>
+    <line>
+      <![CDATA[Entered search text: 'Selenium TestNG Tutorial']]>
+    </line>
+    <line>
+      <![CDATA[Search submitted]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed after test execution]]>
+    </line>
+    <line>
+      <![CDATA[Help section accessed]]>
+    </line>
+    <line>
+      <![CDATA[FAQs and support links verified]]>
+    </line>
+    <line>
+      <![CDATA[Login page loaded]]>
+    </line>
+    <line>
+      <![CDATA[Username and password entered]]>
+    </line>
+    <line>
+      <![CDATA[Login successful. User redirected to dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Logout initiated]]>
+    </line>
+    <line>
+      <![CDATA[Logout successful. User redirected to login page]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account summary and notifications verified]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+    </line>
+    <line>
+      <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+    </line>
+    <line>
+      <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+    </line>
+    <line>
+      <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+    </line>
+    <line>
+      <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+    </line>
+    <line>
+      <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+    </line>
     <line>
       <![CDATA[testAddToCart executed - reported log]]>
     </line>
@@ -17,40 +110,189 @@
       <![CDATA[testSearchProduct executed - reported log]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-22T19:05:49 IST" name="Default suite" finished-at="2025-07-22T19:05:50 IST" duration-ms="179">
+  <suite started-at="2025-07-23T13:09:36 IST" name="SmokeSuite" finished-at="2025-07-23T13:09:43 IST" duration-ms="6733">
     <groups>
     </groups>
-    <test started-at="2025-07-22T19:05:49 IST" name="Default test" finished-at="2025-07-22T19:05:50 IST" duration-ms="179">
+    <test started-at="2025-07-23T13:09:36 IST" name="Smoke Testing" finished-at="2025-07-23T13:09:43 IST" duration-ms="6733">
+      <class name="tests.FirstTest">
+        <test-method signature="helpSectionTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="helpSectionTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Help section accessed]]>
+            </line>
+            <line>
+              <![CDATA[FAQs and support links verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- helpSectionTest -->
+        <test-method signature="loginTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="loginTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page loaded]]>
+            </line>
+            <line>
+              <![CDATA[Username and password entered]]>
+            </line>
+            <line>
+              <![CDATA[Login successful. User redirected to dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="logoutTest" finished-at="2025-07-23T13:09:42 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout initiated]]>
+            </line>
+            <line>
+              <![CDATA[Logout successful. User redirected to login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="verifyDashboard()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyDashboard" finished-at="2025-07-23T13:09:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dashboard loaded successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account summary and notifications verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboard -->
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:42 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+            </line>
+            <line>
+              <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:42 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+            </line>
+            <line>
+              <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+            </line>
+            <line>
+              <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+            </line>
+            <line>
+              <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@33f676f6]" started-at="2025-07-23T13:09:43 IST" name="verifyWelcomeMessage" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Welcome message verified: 'Welcome to UMAXX Portal']]>
+            </line>
+            <line>
+              <![CDATA[Test 'verifyWelcomeMessage' executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomeMessage -->
+      </class> <!-- tests.FirstTest -->
+      <class name="tests.SecondTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:36 IST" name="setup" finished-at="2025-07-23T13:09:39 IST" duration-ms="3232" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openGoogleHomePage()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:39 IST" name="openGoogleHomePage" finished-at="2025-07-23T13:09:40 IST" duration-ms="1291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Google.com]]>
+            </line>
+            <line>
+              <![CDATA[Page title is: Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openGoogleHomePage -->
+        <test-method signature="searchSeleniumTestNG()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:41 IST" name="searchSeleniumTestNG" finished-at="2025-07-23T13:09:42 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opened Google for search test]]>
+            </line>
+            <line>
+              <![CDATA[Entered search text: 'Selenium TestNG Tutorial']]>
+            </line>
+            <line>
+              <![CDATA[Search submitted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchSeleniumTestNG -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SecondTest@776a6d9b]" started-at="2025-07-23T13:09:42 IST" name="tearDown" finished-at="2025-07-23T13:09:42 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed after test execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SecondTest -->
       <class name="tests.ThirdTest">
-        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@7b98f307]" started-at="2025-07-22T19:05:49 IST" name="testAddToCart" finished-at="2025-07-22T19:05:50 IST" duration-ms="27" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testAddToCart" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testAddToCart executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@7b98f307]" started-at="2025-07-22T19:05:50 IST" name="testCheckout" finished-at="2025-07-22T19:05:50 IST" duration-ms="2" status="PASS">
+        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testCheckout" finished-at="2025-07-23T13:09:43 IST" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testCheckout executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCheckout -->
-        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@7b98f307]" started-at="2025-07-22T19:05:50 IST" name="testLogin" finished-at="2025-07-22T19:05:50 IST" duration-ms="3" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testLogin" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogin executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@7b98f307]" started-at="2025-07-22T19:05:50 IST" name="testLogout" finished-at="2025-07-22T19:05:50 IST" duration-ms="7" status="PASS">
+        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testLogout" finished-at="2025-07-23T13:09:43 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogout executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@7b98f307]" started-at="2025-07-22T19:05:50 IST" name="testSearchProduct" finished-at="2025-07-22T19:05:50 IST" duration-ms="4" status="PASS">
+        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@4c5ae43b]" started-at="2025-07-23T13:09:43 IST" name="testSearchProduct" finished-at="2025-07-23T13:09:43 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testSearchProduct executed - reported log]]>
@@ -58,6 +300,6 @@
           </reporter-output>
         </test-method> <!-- testSearchProduct -->
       </class> <!-- tests.ThirdTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Smoke Testing -->
+  </suite> <!-- SmokeSuite -->
 </testng-results>

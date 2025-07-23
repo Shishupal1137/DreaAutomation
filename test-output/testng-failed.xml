@@ -5,8 +5,9 @@
     <classes>
       <class name="tests.SecondTest">
         <methods>
-          <include name="verifyFooterLinks"/>
+          <include name="searchSeleniumTestNG"/>
           <include name="tearDown"/>
+          <include name="openGoogleHomePage"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.SecondTest -->
