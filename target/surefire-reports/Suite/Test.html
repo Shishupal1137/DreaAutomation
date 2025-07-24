@@ -1,0 +1,290 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 24 13:34:57 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4881 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.FirstTest.verifyWelcomeMessage()'><b>verifyWelcomeMessage</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-124058278" onClick='toggleBox("Output-124058278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124058278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124058278">
+Application launched successfully<br/>
+Welcome message verified: 'Welcome to UMAXX Portal'<br/>
+Test 'verifyWelcomeMessage' executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.FirstTest.loginTest()'><b>loginTest</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1479696465" onClick='toggleBox("Output-1479696465", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479696465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479696465">
+Login page loaded<br/>
+Username and password entered<br/>
+Login successful. User redirected to dashboard<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.FirstTest.verifyWelcomeMessage()'><b>verifyWelcomeMessage</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-2061774051" onClick='toggleBox("Output-2061774051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061774051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061774051">
+Application launched successfully<br/>
+Welcome message verified: 'Welcome to UMAXX Portal'<br/>
+Test 'verifyWelcomeMessage' executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.ThirdTest.testLogout()'><b>testLogout</b><br>Test class: tests.ThirdTest<br/>
+<a href="#Output-1552179791" onClick='toggleBox("Output-1552179791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552179791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552179791">
+testLogout executed - reported log<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.ThirdTest@38467116</td></tr>
+<tr>
+<td title='tests.FirstTest.verifyWelcomeMessage()'><b>verifyWelcomeMessage</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1277108979" onClick='toggleBox("Output-1277108979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1277108979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1277108979">
+Application launched successfully<br/>
+Welcome message verified: 'Welcome to UMAXX Portal'<br/>
+Test 'verifyWelcomeMessage' executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.FirstTest.verifyDashboard()'><b>verifyDashboard</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1690101810" onClick='toggleBox("Output-1690101810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1690101810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1690101810">
+Dashboard loaded successfully<br/>
+Account summary and notifications verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.FirstTest.verifyWelcomeMessage()'><b>verifyWelcomeMessage</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1502335674" onClick='toggleBox("Output-1502335674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1502335674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1502335674">
+Application launched successfully<br/>
+Welcome message verified: 'Welcome to UMAXX Portal'<br/>
+Test 'verifyWelcomeMessage' executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.ThirdTest.testCheckout()'><b>testCheckout</b><br>Test class: tests.ThirdTest<br/>
+<a href="#Output-990870941" onClick='toggleBox("Output-990870941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-990870941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-990870941">
+testCheckout executed - reported log<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.ThirdTest@38467116</td></tr>
+<tr>
+<td title='tests.ThirdTest.testSearchProduct()'><b>testSearchProduct</b><br>Test class: tests.ThirdTest<br/>
+<a href="#Output-1661161169" onClick='toggleBox("Output-1661161169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661161169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661161169">
+testSearchProduct executed - reported log<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.ThirdTest@38467116</td></tr>
+<tr>
+<td title='tests.FirstTest.verifyWelcomeMessage()'><b>verifyWelcomeMessage</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1517640897" onClick='toggleBox("Output-1517640897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1517640897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1517640897">
+Application launched successfully<br/>
+Welcome message verified: 'Welcome to UMAXX Portal'<br/>
+Test 'verifyWelcomeMessage' executed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.FirstTest.logoutTest()'><b>logoutTest</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-851765426" onClick='toggleBox("Output-851765426", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-851765426" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-851765426">
+Logout initiated<br/>
+Logout successful. User redirected to login page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+<tr>
+<td title='tests.SecondTest.searchSeleniumTestNG()'><b>searchSeleniumTestNG</b><br>Test class: tests.SecondTest<br/>
+<a href="#Output-1691858720" onClick='toggleBox("Output-1691858720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1691858720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1691858720">
+Opened Google for search test<br/>
+Entered search text: 'Selenium TestNG Tutorial'<br/>
+Search submitted<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.SecondTest@431cd9b2</td></tr>
+<tr>
+<td title='tests.ThirdTest.testAddToCart()'><b>testAddToCart</b><br>Test class: tests.ThirdTest<br/>
+<a href="#Output-571956559" onClick='toggleBox("Output-571956559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-571956559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571956559">
+testAddToCart executed - reported log<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.ThirdTest@38467116</td></tr>
+<tr>
+<td title='tests.SecondTest.openGoogleHomePage()'><b>openGoogleHomePage</b><br>Test class: tests.SecondTest<br/>
+<a href="#Output-1998882269" onClick='toggleBox("Output-1998882269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1998882269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1998882269">
+Navigated to Google.com<br/>
+Page title is: Google<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.SecondTest@431cd9b2</td></tr>
+<tr>
+<td title='tests.ThirdTest.testLogin()'><b>testLogin</b><br>Test class: tests.ThirdTest<br/>
+<a href="#Output-594195094" onClick='toggleBox("Output-594195094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-594195094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-594195094">
+testLogin executed - reported log<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.ThirdTest@38467116</td></tr>
+<tr>
+<td title='tests.FirstTest.helpSectionTest()'><b>helpSectionTest</b><br>Test class: tests.FirstTest<br/>
+<a href="#Output-1021258849" onClick='toggleBox("Output-1021258849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1021258849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1021258849">
+Help section accessed<br/>
+FAQs and support links verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>tests.FirstTest@35841320</td></tr>
+</table><p>
+</body>
+</html>

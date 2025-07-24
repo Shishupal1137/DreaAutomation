@@ -5,8 +5,6 @@
     <classes>
       <class name="tests.FirstTest"/>
       <class name="tests.SecondTest"/>
-      <class name="tests.AllureReport"/>
-      <class name="tests.Allure"/>
       <class name="tests.ThirdTest"/>
     </classes>
   </test> <!-- Test -->
