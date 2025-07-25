@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -27,6 +28,9 @@ public class ThirdTest {
   public void testCheckout() {
     System.out.println("Executing testCheckout - console log");
     Reporter.log("testCheckout executed - reported log");
+
+    // Intentional failure for demonstration
+    Assert.fail("❌ testCheckout failed due to payment gateway error.");
   }
 
   @Test
@@ -35,4 +39,3 @@ public class ThirdTest {
     Reporter.log("testLogout executed - reported log");
   }
 }
-
