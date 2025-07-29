@@ -1,8 +1,6 @@
 package tests;
 
-import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class ThirdTest {
@@ -30,8 +28,7 @@ public class ThirdTest {
     System.out.println("Executing testCheckout - console log");
     Reporter.log("testCheckout executed - reported log");
 
-    // Intentional failure
-    Assert.fail("❌ testCheckout failed due to payment gateway error.");
+    // ✅ No failure now
   }
 
   @Test
@@ -42,10 +39,9 @@ public class ThirdTest {
 
   @Test
   public void testOffersPage() {
-    System.out.println("Skipping testOffersPage - console log");
-    Reporter.log("testOffersPage skipped - reported log");
+    System.out.println("Executing testOffersPage - console log");
+    Reporter.log("testOffersPage executed - reported log");
 
-    // Intentionally skipping
-    throw new SkipException("⏭️ Skipping testOffersPage due to feature under development.");
+    // ✅ No skip now
   }
 }

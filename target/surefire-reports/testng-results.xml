@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="15" failed="1" skipped="1">
   <reporter-output>
     <line>
       <![CDATA[Help section accessed]]>
@@ -107,15 +107,18 @@
       <![CDATA[testLogout executed - reported log]]>
     </line>
     <line>
+      <![CDATA[testOffersPage skipped - reported log]]>
+    </line>
+    <line>
       <![CDATA[testSearchProduct executed - reported log]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-24T13:34:57 IST" name="Suite" finished-at="2025-07-24T13:35:02 IST" duration-ms="4881">
+  <suite started-at="2025-07-29T15:49:12 IST" name="Suite" finished-at="2025-07-29T15:49:19 IST" duration-ms="7311">
     <groups>
     </groups>
-    <test started-at="2025-07-24T13:34:57 IST" name="Test" finished-at="2025-07-24T13:35:02 IST" duration-ms="4881">
+    <test started-at="2025-07-29T15:49:12 IST" name="Test" finished-at="2025-07-29T15:49:19 IST" duration-ms="7311">
       <class name="tests.FirstTest">
-        <test-method signature="helpSectionTest()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:57 IST" name="helpSectionTest" finished-at="2025-07-24T13:34:57 IST" duration-ms="63" status="PASS">
+        <test-method signature="helpSectionTest()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="helpSectionTest" finished-at="2025-07-29T15:49:12 IST" duration-ms="82" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Help section accessed]]>
@@ -125,7 +128,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- helpSectionTest -->
-        <test-method signature="loginTest()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="loginTest" finished-at="2025-07-24T13:34:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="loginTest" finished-at="2025-07-29T15:49:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login page loaded]]>
@@ -138,7 +141,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="logoutTest()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="logoutTest" finished-at="2025-07-24T13:34:58 IST" duration-ms="9" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="logoutTest" finished-at="2025-07-29T15:49:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout initiated]]>
@@ -148,7 +151,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method signature="verifyDashboard()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyDashboard" finished-at="2025-07-24T13:34:58 IST" duration-ms="3" status="PASS">
+        <test-method signature="verifyDashboard()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyDashboard" finished-at="2025-07-29T15:49:12 IST" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Dashboard loaded successfully]]>
@@ -158,7 +161,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyDashboard -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T13:34:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyWelcomeMessage" finished-at="2025-07-29T15:49:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -171,7 +174,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T13:34:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyWelcomeMessage" finished-at="2025-07-29T15:49:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -184,7 +187,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T13:34:58 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyWelcomeMessage" finished-at="2025-07-29T15:49:12 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -197,7 +200,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T13:34:58 IST" duration-ms="13" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyWelcomeMessage" finished-at="2025-07-29T15:49:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -210,7 +213,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyWelcomeMessage -->
-        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@35841320]" started-at="2025-07-24T13:34:58 IST" name="verifyWelcomeMessage" finished-at="2025-07-24T13:34:58 IST" duration-ms="2" status="PASS">
+        <test-method signature="verifyWelcomeMessage()[pri:0, instance:tests.FirstTest@61c4eee0]" started-at="2025-07-29T15:49:12 IST" name="verifyWelcomeMessage" finished-at="2025-07-29T15:49:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application launched successfully]]>
@@ -225,14 +228,14 @@
         </test-method> <!-- verifyWelcomeMessage -->
       </class> <!-- tests.FirstTest -->
       <class name="tests.SecondTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SecondTest@431cd9b2]" started-at="2025-07-24T13:34:58 IST" name="setup" finished-at="2025-07-24T13:35:00 IST" duration-ms="2483" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SecondTest@38467116]" started-at="2025-07-29T15:49:12 IST" name="setup" finished-at="2025-07-29T15:49:15 IST" duration-ms="3185" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser launched successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openGoogleHomePage()[pri:0, instance:tests.SecondTest@431cd9b2]" started-at="2025-07-24T13:35:00 IST" name="openGoogleHomePage" finished-at="2025-07-24T13:35:01 IST" duration-ms="899" status="PASS">
+        <test-method signature="openGoogleHomePage()[pri:0, instance:tests.SecondTest@38467116]" started-at="2025-07-29T15:49:15 IST" name="openGoogleHomePage" finished-at="2025-07-29T15:49:17 IST" duration-ms="1735" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigated to Google.com]]>
@@ -242,7 +245,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openGoogleHomePage -->
-        <test-method signature="searchSeleniumTestNG()[pri:0, instance:tests.SecondTest@431cd9b2]" started-at="2025-07-24T13:35:01 IST" name="searchSeleniumTestNG" finished-at="2025-07-24T13:35:02 IST" duration-ms="972" status="PASS">
+        <test-method signature="searchSeleniumTestNG()[pri:0, instance:tests.SecondTest@38467116]" started-at="2025-07-29T15:49:17 IST" name="searchSeleniumTestNG" finished-at="2025-07-29T15:49:19 IST" duration-ms="1728" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opened Google for search test]]>
@@ -255,7 +258,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchSeleniumTestNG -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SecondTest@431cd9b2]" started-at="2025-07-24T13:35:02 IST" name="tearDown" finished-at="2025-07-24T13:35:02 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SecondTest@38467116]" started-at="2025-07-29T15:49:19 IST" name="tearDown" finished-at="2025-07-29T15:49:19 IST" duration-ms="279" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed after test execution]]>
@@ -264,35 +267,123 @@
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SecondTest -->
       <class name="tests.ThirdTest">
-        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@38467116]" started-at="2025-07-24T13:35:02 IST" name="testCheckout" finished-at="2025-07-24T13:35:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[testCheckout executed - reported log]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testCheckout -->
-        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@38467116]" started-at="2025-07-24T13:35:02 IST" name="testAddToCart" finished-at="2025-07-24T13:35:02 IST" duration-ms="0" status="PASS">
+        <test-method signature="testAddToCart()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testAddToCart" finished-at="2025-07-29T15:49:19 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testAddToCart executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@38467116]" started-at="2025-07-24T13:35:02 IST" name="testLogin" finished-at="2025-07-24T13:35:02 IST" duration-ms="0" status="PASS">
+        <test-method signature="testCheckout()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testCheckout" finished-at="2025-07-29T15:49:19 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ testCheckout failed due to payment gateway error.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ testCheckout failed due to payment gateway error.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.ThirdTest.testCheckout(ThirdTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[testCheckout executed - reported log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method signature="testLogin()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testLogin" finished-at="2025-07-29T15:49:19 IST" duration-ms="7" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogin executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@38467116]" started-at="2025-07-24T13:35:02 IST" name="testLogout" finished-at="2025-07-24T13:35:02 IST" duration-ms="0" status="PASS">
+        <test-method signature="testLogout()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testLogout" finished-at="2025-07-29T15:49:19 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testLogout executed - reported log]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLogout -->
-        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@38467116]" started-at="2025-07-24T13:35:02 IST" name="testSearchProduct" finished-at="2025-07-24T13:35:02 IST" duration-ms="0" status="PASS">
+        <test-method signature="testOffersPage()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testOffersPage" finished-at="2025-07-29T15:49:19 IST" duration-ms="5" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[⏭️ Skipping testOffersPage due to feature under development.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: ⏭️ Skipping testOffersPage due to feature under development.
+at tests.ThirdTest.testOffersPage(ThirdTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[testOffersPage skipped - reported log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOffersPage -->
+        <test-method signature="testSearchProduct()[pri:0, instance:tests.ThirdTest@5b7a7f33]" started-at="2025-07-29T15:49:19 IST" name="testSearchProduct" finished-at="2025-07-29T15:49:19 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[testSearchProduct executed - reported log]]>
