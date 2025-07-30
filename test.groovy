@@ -40,5 +40,25 @@ pipeline {
                 """
             )
         }
+
+        failure {
+            emailext (
+                to: 'rajabhaiya1137@gmail.com',
+                subject: "❌ Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                body: """
+                Hello Raja Bhaiya,
+
+                ❌ Your Jenkins build *${env.JOB_NAME}* has failed.
+
+                🔢 Build Number: ${env.BUILD_NUMBER}
+                🔗 View Details: ${env.BUILD_URL}
+
+                Please check the console output for errors.
+
+                Regards,  
+                Jenkins CI
+                """
+            )
+        }
     }
 }
